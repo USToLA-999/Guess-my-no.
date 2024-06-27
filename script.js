@@ -26,7 +26,7 @@ document.querySelector('.check').addEventListener('click', function(){
     else if(guess === secretNumber){
         document.querySelector('.message').textContent = 'gotcha you  didit'
 
-        document.querySelector('.highscore').textContent = score
+
 
         document.querySelector('body').style.backgroundColor = 'green'
 
